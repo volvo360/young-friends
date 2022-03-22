@@ -1,0 +1,41 @@
+{
+  "name": "jquery-jeditable",
+  "version": "2.0.19",
+  "description": "Edit in place plugin for jQuery",
+  "main": "src/jquery.jeditable.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "documentation": "^13.1.0",
+    "grunt": "^1.3.0",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "lodash": "^4.17.20",
+    "merge": "^2.1.0",
+    "qunit": "^2.13.0"
+  },
+  "scripts": {
+    "test": "firefox -new-tab tests/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasCARPi/jquery_jeditable.git"
+  },
+  "keywords": [
+    "jquery",
+    "edit",
+    "in",
+    "place",
+    "jeditable",
+    "plugin"
+  ],
+  "author": "Mika Tuupola <tuupola@appelsiini.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasCARPi/jquery_jeditable/issues"
+  },
+  "homepage": "https://github.com/NicolasCARPi/jquery_jeditable#readme"
+}
